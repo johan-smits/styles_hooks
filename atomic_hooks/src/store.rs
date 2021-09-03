@@ -190,7 +190,7 @@ impl Store {
     }
 
     pub(crate) fn set_state_with_id<T: 'static>(&mut self, data: T, current_id: &StorageKey) {
-        //unwrap or default to keep borrow checker happy
+        // Unwrap or default use the default key
         let key = self
             .id_to_key_map
             .get(current_id)
