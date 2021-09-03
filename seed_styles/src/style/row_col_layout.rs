@@ -2,7 +2,6 @@ use super::measures::{px, ExactLength};
 use super::*;
 use crate::style::s;
 use crate::view_macro;
-use seed::{prelude::*, *};
 
 use crate::style::state_access::StateAccess;
 
