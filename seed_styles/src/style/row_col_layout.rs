@@ -4,7 +4,6 @@ use super::*;
 use crate::style::s;
 use crate::view_macro;
 
-
 use crate::style::state_access::StateAccess;
 
 
